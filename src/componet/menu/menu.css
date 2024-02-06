@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+:root{
+    --bg-color:#fee7c5;
+    --primary:#ff912b;
+    --duu:#857023;
+    --secondary:#2f2105;
+    --accents:#f9d9aa;
+    --light:#7e7d7a;
+
+}
+#menu{
+padding: 50px 0;
+margin: 30px 0;
+}
+#menu .under{
+    border-bottom: 3px solid #dd912b;
+    border-radius: 3px;  
+}
+#menu .main-menu{
+    width: 80%;
+    margin: auto;
+ 
+}
+.main-menu h2{
+    padding-bottom: 190px;
+}
+.main-menu h3{
+    padding: 19px;
+}
+.main-menu .cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(260PX,1fr));
+    gap: 140PX;
+}
+.HOT{
+    padding: 40px;
+}
+@media screen and (max-width: 768px) {
+    #menu{
+        padding: 20px 0;
+         margin-top: 20px;
+        }
+        .main-menu h2{
+            font-size: 20px;
+        }
+        .main-menu .cards{
+            margin-top: -150px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(260PX,1fr));
+            gap: 30PX;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .main-menu h3{
+           font-size: 12px;
+        }
+}
+@media screen and (max-width: 350px) { 
+    #menu{
+        padding: 20px 0;
+         margin-top: 20px;
+        }
+        .main-menu h2{
+            font-size: 20px;
+        }
+        .main-menu .cards{
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(260PX,1fr));
+            gap: 30PX;
+            margin-left: -20px;
+            margin-right: 10px;
+        }
+        .main-menu h3{
+           font-size: 12px;
+        }
+ }

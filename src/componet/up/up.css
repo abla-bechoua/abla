@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+:root{
+    --bg-color:#fee7c5;
+    --primary:#ff912b;
+    --duu:#857023;
+    --secondary:#2f2105;
+    --accents:#f9d9aa;
+    --light:#7e7d7a;
+
+}
+.scrollUp{
+    position: fixed;
+    right: 2.5rem;
+    bottom: -20%;
+    background-color: var(--title-color);
+    opacity: 0.8;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.4rem;
+    z-index: var(--z-tooltip);
+    top: .4s;
+}
+.scrollUp__icon{
+    font-size: 2.5rem;
+    color: var(--light);
+}
+
+.scrollUp:hover{
+    background-color: var(--primary);
+}
+.show-scroll{
+    bottom: 3rem;
+}
+
+@media screen and (max-width: 992px) {
+    .scrollUp{
+        right: 1.5rem;
+        padding: 0.25rem 0.4rem;
+    }
+    .scrollUp__icon{
+        font-size: 1.25rem;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    
+    .scrollUp{
+        left: 19rem;
+        width: 30px;
+    }
+  } 
+ 
+ @media screen and (max-width: 350px) {
+.scrollUp{
+    left: 16rem;
+    padding: 0.5rem 10px;
+    width: 37px;
+}
+   
+ }

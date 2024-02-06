@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+:root{
+    --bg-color:#fee7c5;
+    --primary:#ff912b;
+    --duu:#857023;
+    --secondary:#2f2105;
+    --accents:#f9d9aa;
+    --light:#7e7d7a;
+
+}
+#services{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 80px;
+    position: relative;
+    bottom: -320px;
+}
+#services h2{
+    padding-bottom: 50px;
+}
+#services .service{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+}
+ 
+#services .service img{
+    padding-bottom: 10px;
+    border-radius: 50%;
+}
+#services .service h3{
+    color: var(--secondary);
+    padding-bottom: 10px; 
+}
+#services .service h4{
+    color: var(--light);
+    padding-bottom: 10px; 
+}
+#services .under{
+    border-bottom: 3px solid #dd912b;
+    border-radius: 3px;  
+}
+ 
+#services .bg_hero{
+    position: absolute;
+    top: 3px;
+    right: 470px;
+    mix-blend-mode: multiply;
+}
+#services .bg{
+    position: absolute;
+    top: -120px;
+    right: -140px;
+    mix-blend-mode: multiply;
+}
+#services .bg_h{
+    position: absolute;
+    top: 300px;
+    right: 300px;
+    mix-blend-mode: multiply;
+}
+#services .bg_he{
+    position: absolute;
+    top: 190px;
+    right: 1073px;
+    mix-blend-mode: multiply;
+}
+#services .bg_F{
+    position: absolute;
+    top: 364px;
+    right: 260px;
+    mix-blend-mode: multiply;
+}
+@media screen and (max-width: 768px) {
+    #services{
+        width: 80%;
+        margin: auto;
+        padding-bottom: 80px;
+        padding-left: 4px;
+        position: relative;
+        margin-top: 820px;
+        margin-left: 10px;
+    }
+    #services .service{
+        display: block;
+        text-align: center;
+        justify-content: space-between;
+        padding-left: 60px;
+    }
+    #services .bg_hero{
+        position: absolute;
+        top: 3px;
+        margin-right: 370px;
+        mix-blend-mode: multiply;
+        width: 10px;
+        height: 10px;
+        visibility: hidden;
+    }
+    #services .bg{
+        position: absolute;
+        top: -120px;
+        right: -140px;
+        width: 10px;
+        height: 10px;
+        mix-blend-mode: multiply;
+        visibility: hidden;
+    }
+    #services .bg_h{
+        position: absolute;
+        top: 300px;
+        right: 300px;
+        mix-blend-mode: multiply;
+        visibility: hidden;
+    }
+    #services .bg_he{
+        position: absolute;
+        top: 190px;
+        right: 1073px;
+        mix-blend-mode: multiply;
+        visibility: hidden;
+    }
+    #services .bg_F{
+        position: absolute;
+        top: 364px;
+        right: 260px;
+        mix-blend-mode: multiply;
+        visibility: hidden;
+    }
+    #services .service img{
+        width: 220px;
+        border-radius: 50%;
+         
+    }
+    #services h2{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 350px) { 
+    #services h2{
+        font-size: 20px;
+    }
+    #services{
+        width: 70%;
+        margin: auto;
+        padding-bottom: 80px;
+        padding-left: 4px;
+        position: relative;
+        margin-top: 820px;
+        margin-left: 10px;
+    }
+    #services .service{
+        display: block;
+        text-align: center;
+        justify-content: space-between;
+    
+    }
+    #services .bg_hero{
+        position: absolute;
+        top: 3px;
+        margin-right: 370px;
+        mix-blend-mode: multiply;
+        width: 10px;
+        height: 10px;
+        visibility: hidden;
+    }
+    #services .bg{
+        position: absolute;
+        top: -120px;
+        right: -140px;
+        width: 10px;
+        height: 10px;
+        mix-blend-mode: multiply;
+        visibility: hidden;
+    }
+    #services .bg_h{
+        position: absolute;
+        top: 300px;
+        right: 300px;
+        mix-blend-mode: multiply;
+        visibility: hidden;
+    }
+    #services .bg_he{
+        position: absolute;
+        top: 190px;
+        right: 1073px;
+        mix-blend-mode: multiply;
+        visibility: hidden;
+    }
+    #services .bg_F{
+        position: absolute;
+        top: 364px;
+        right: 260px;
+        mix-blend-mode: multiply;
+        visibility: hidden;
+    }
+    #services .service img{
+        width: 220px;
+        border-radius: 50%;
+    }
+ }
