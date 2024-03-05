@@ -145,27 +145,30 @@
    position: absolute;
    top: 220px;
    left: -50px;
-}
-@media screen and (max-width: 768px) {
+} 
+@media screen and (max-width: 350px) { 
+    
     #popular{
-        width: 80%;
-        margin-top: 40px;
+        width: 100%;
+        margin-top: -60px;
         padding-top: 160px;
         position: relative;
         bottom: 280px;
     }
     #popular h2{
-        font-size: 20px;
+        font-size: 45px;
+        margin-bottom: 40px;
+       
     }
     .cards{
         display:block;
     }
     .card{
-        width: 250px;
-        height: 380px;
-        padding: 15px;
+        width: 340px;
+        height: 390px;
+        padding: 25px;
         margin-top: 40px;
-        margin-left: 15px;
+        margin-left: 45px;
         background-color: #FFF;
         border: 5px solid #f3eae1;
         border-radius: 10px;
@@ -174,28 +177,29 @@
     }
     .card div:nth-child(1) img{
         border-radius: 10px;
-        width: 200px;
+        width: 286px;
     }
     
     #popular .bg-pop{
-        width: 280px;
-        height: 1308px;
+        width: 440px;
+        height: 1340px;
         background-color: #eac081;
         border-radius: 30px;
         position: absolute;
-        top: 100px;
-        margin-left:63px;
+        top: 120px;
+        margin-left:430px;
+        
        
     }
     .card div:nth-child(1) h3{
-        font-size: 15px;
+        font-size: 20px;
         padding: 3px 3px;
         background-color: #fff;
         border: 5px solid #ede0e0;
         border-radius: 30px;
         position: absolute;
-        top:70px;
-        left: 35px;
+        top:75px;
+        left: 77px;
     }
     .L{
         font-size: 15px;
@@ -204,8 +208,8 @@
         border: 5px solid #ede0e0;
         border-radius: 30px;
         position: absolute;
-        margin-top: 414px;
-        margin-left:3px;
+        margin-top: 424px;
+        margin-left:-3px;
     }
     .M{
         font-size: 15px;
@@ -215,7 +219,7 @@
         border-radius: 30px;
         position: absolute;
         margin-top: 860px;
-        margin-left:3px;
+        margin-left:-3px;
     }
     .card div:nth-child(2){
         margin: 280px -200px ;
@@ -225,72 +229,73 @@
     }
     .HOT{
         margin-bottom: -310px;
-        margin-left: 145px;
-    }
-    .K{
-        margin: 280px -210px ;
-    }  
-}
-@media screen and (max-width: 350px) { 
-    #popular{
-        width: 80%;
-        margin-top: 40px;
-        padding-top: 160px;
-        position: relative;
-        bottom: 280px;
-    }
-    #popular h2{
+        margin-left: 90px;
         font-size: 20px;
     }
+    .K{
+        margin: 290px -210px ;
+        font-size: 23px;
+    }
+    h3{
+        font-size:23px;
+        margin-left:-20px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #popular{
+        width: 130%;
+        margin-top: 160px;
+        padding-top: 160px;
+        position: relative;
+        bottom: -290px;
+    }
+    #popular h2{
+        font-size: 80px;
+        margin-bottom: 90px;
+       
+    }
     .cards{
-        display:block;
+        display:flex;
     }
     .card{
-        width: 250px;
-        height: 380px;
-        padding: 15px;
+        width: 840px;
+        height: 790px;
+        padding: 25px;
         margin-top: 40px;
-        margin-left: 15px;
+        margin-left: 75px;
         background-color: #FFF;
         border: 5px solid #f3eae1;
         border-radius: 10px;
         box-shadow: 2px  6px 20px 0px #8b8782;
         z-index: 1;  
     }
+   
     .card div:nth-child(1) img{
         border-radius: 10px;
-        width: 200px;
+        width: 780px; 
+        height: 490px;    
     }
-    
+   
     #popular .bg-pop{
-        width: 280px;
-        height: 1308px;
+        width: 2840px;
+        height: 990px;
         background-color: #eac081;
         border-radius: 30px;
         position: absolute;
-        top: 100px;
-        margin-left:43px;
+        top: 120px;
+        margin-left:530px;
+        margin-top: 290px;  
        
     }
     .card div:nth-child(1) h3{
-        font-size: 15px;
-        padding: 3px 3px;
+        font-size: 40px;
+        padding: 13px 13px;
         background-color: #fff;
         border: 5px solid #ede0e0;
         border-radius: 30px;
         position: absolute;
-        top:70px;
-        left: 35px;
-    }
-    .L{
-        font-size: 15px;
-        padding: 3px 10px;
-        background-color: #fff;
-        border: 5px solid #ede0e0;
-        border-radius: 30px;
-        position: absolute;
-        margin-top: 414px;
-        margin-left:3px;
+        top:-295px;
+        left: 685px;  
     }
     .M{
         font-size: 15px;
@@ -299,8 +304,18 @@
         border: 5px solid #ede0e0;
         border-radius: 30px;
         position: absolute;
-        margin-top: 830px;
-        margin-left:3px;
+        margin-top: 380px;
+        margin-left:363px;
+    }
+    .L{
+        font-size: 15px;
+        padding: 3px 10px;
+        background-color: #fff;
+        border: 5px solid #ede0e0;
+        border-radius: 30px;
+        position: absolute;
+        margin-top: 390px;
+        margin-left:1293px;
     }
     .card div:nth-child(2){
         margin: 280px -200px ;
@@ -310,10 +325,118 @@
     }
     .HOT{
         margin-bottom: -310px;
-        margin-left: 145px;
+        margin-left: -440px;
+        font-size: 75px;
+        margin-top: 290px;
     }
     .K{
-        margin: 280px -210px ;
+        margin: 290px -210px ;
+        font-size: 53px;
+        margin-top: 670px;
     }
+    h3{
+        font-size:53px;
+        margin-left:-580px;
+        margin-top: 380px;
+    }  
+}
+@media screen and (max-width: 490px) {
+    #popular{
+        width: 130%;
+        margin-top: -60px;
+        padding-top: 160px;
+        position: relative;
+        bottom: 280px;
+    }
+    #popular h2{
+        font-size: 50px;
+        margin-bottom: 40px;
+       
+    }
+    .cards{
+        display:block;
+    }
+    .card{
+        width: 640px;
+        height: 490px;
+        padding: 25px;
+        margin-top: 40px;
+        margin-left: 45px;
+        background-color: #FFF;
+        border: 5px solid #f3eae1;
+        border-radius: 10px;
+        box-shadow: 2px  6px 20px 0px #8b8782;
+        z-index: 1;  
+    }
+   
+    .card div:nth-child(1) img{
+        border-radius: 10px;
+        width: 586px; 
+        height: 290px;    
+    }
+   
+    #popular .bg-pop{
+        width: 740px;
+        height: 1740px;
+        background-color: #eac081;
+        border-radius: 30px;
+        position: absolute;
+        top: 120px;
+        margin-left:430px;  
+       
+    }
+    .card div:nth-child(1) h3{
+        font-size: 40px;
+        padding: 13px 13px;
+        background-color: #fff;
+        border: 5px solid #ede0e0;
+        border-radius: 30px;
+        position: absolute;
+        top:15px;
+        left: 485px;  
+    }
+    .M{
+        font-size: 15px;
+        padding: 3px 10px;
+        background-color: #fff;
+        border: 5px solid #ede0e0;
+        border-radius: 30px;
+        position: absolute;
+        margin-top: 600px;
+        margin-left:-393px;
+    }
+    .L{
+        font-size: 15px;
+        padding: 3px 10px;
+        background-color: #fff;
+        border: 5px solid #ede0e0;
+        border-radius: 30px;
+        position: absolute;
+        margin-top: 1130px;
+        margin-left:-393px;
+    }
+    .card div:nth-child(2){
+        margin: 280px -200px ;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .HOT{
+        margin-bottom: -310px;
+        margin-left: -240px;
+        font-size: 45px;
+        margin-top: 60px;
+    }
+    .K{
+        margin: 290px -210px ;
+        font-size: 43px;
+        margin-top: 390px;
+    }
+    h3{
+        font-size:43px;
+        margin-left:-400px;
+        margin-top: 80px;
+    }
+    
 }
  

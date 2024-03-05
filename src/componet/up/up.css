@@ -48,12 +48,7 @@
   }
   @media screen and (max-width: 768px) {
     
-    .scrollUp{
-        left: 19rem;
-        width: 30px;
-    }
-  } 
- 
+  }
  @media screen and (max-width: 350px) {
 .scrollUp{
     left: 16rem;

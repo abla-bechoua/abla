@@ -69,7 +69,7 @@
 #services .bg_he{
     position: absolute;
     top: 190px;
-    right: 1073px;
+    right: 1303px;
     mix-blend-mode: multiply;
 }
 #services .bg_F{
@@ -78,87 +78,30 @@
     right: 260px;
     mix-blend-mode: multiply;
 }
-@media screen and (max-width: 768px) {
-    #services{
-        width: 80%;
-        margin: auto;
-        padding-bottom: 80px;
-        padding-left: 4px;
-        position: relative;
-        margin-top: 820px;
-        margin-left: 10px;
-    }
-    #services .service{
-        display: block;
-        text-align: center;
-        justify-content: space-between;
-        padding-left: 60px;
-    }
-    #services .bg_hero{
-        position: absolute;
-        top: 3px;
-        margin-right: 370px;
-        mix-blend-mode: multiply;
-        width: 10px;
-        height: 10px;
-        visibility: hidden;
-    }
-    #services .bg{
-        position: absolute;
-        top: -120px;
-        right: -140px;
-        width: 10px;
-        height: 10px;
-        mix-blend-mode: multiply;
-        visibility: hidden;
-    }
-    #services .bg_h{
-        position: absolute;
-        top: 300px;
-        right: 300px;
-        mix-blend-mode: multiply;
-        visibility: hidden;
-    }
-    #services .bg_he{
-        position: absolute;
-        top: 190px;
-        right: 1073px;
-        mix-blend-mode: multiply;
-        visibility: hidden;
-    }
-    #services .bg_F{
-        position: absolute;
-        top: 364px;
-        right: 260px;
-        mix-blend-mode: multiply;
-        visibility: hidden;
-    }
-    #services .service img{
-        width: 220px;
-        border-radius: 50%;
-         
-    }
-    #services h2{
-        font-size: 20px;
-    }
-}
+ 
 @media screen and (max-width: 350px) { 
+    #services .under{
+        border-bottom: 3px solid #dd912b;
+        border-radius: 3px;  
+    }
     #services h2{
-        font-size: 20px;
+     font-size: 45px;
+     margin-left: 10px;
     }
     #services{
-        width: 70%;
+        width: 190%;
         margin: auto;
         padding-bottom: 80px;
         padding-left: 4px;
         position: relative;
         margin-top: 820px;
-        margin-left: 10px;
+        margin-left: 290px;
     }
     #services .service{
         display: block;
         text-align: center;
         justify-content: space-between;
+        margin-left: -170px;
     
     }
     #services .bg_hero{
@@ -201,7 +144,176 @@
         visibility: hidden;
     }
     #services .service img{
-        width: 220px;
+        width: 500px;
+        height: 460px;
         border-radius: 50%;
     }
+    #services .service h4{
+        font-size: 30px;
+        color: var(--light);
+        padding-bottom: 10px; 
+    }
+    #services .service h3{
+        font-size: 32px;
+        color: var(--secondary);
+        padding-bottom: 10px; 
+    }
  }
+ @media screen and (max-width:1024px) {
+    #services .under{
+        border-bottom: 6px solid #dd912b;
+        border-radius: 3px;  
+    }
+    #services{
+        width: 190%;
+        margin: auto;
+        padding-bottom: 180px;
+        padding-left: 4px;
+        position: relative;
+        margin-top: 1420px;
+        margin-left: 290px;
+    }
+    #services h2{
+        font-size: 90px;
+        margin-left: -260px;
+       }
+       #services .service{
+        display: block;
+        text-align: center;
+        justify-content: space-between;
+        margin-left: 740px;
+    
+    }
+    #services .bg_hero{
+        position: absolute;
+        top: 3px;
+        margin-right: 370px;
+        mix-blend-mode: multiply;
+        width: 10px;
+        height: 10px;
+        visibility: hidden;
+    }
+    #services .bg{
+        position: absolute;
+        top: -120px;
+        right: -140px;
+        width: 10px;
+        height: 10px;
+        mix-blend-mode: multiply;
+        visibility: hidden;
+    }
+    #services .bg_h{
+        position: absolute;
+        top: 300px;
+        right: 300px;
+        mix-blend-mode: multiply;
+        visibility: hidden;
+    }
+    #services .bg_he{
+        position: absolute;
+        top: 190px;
+        right: 1073px;
+        mix-blend-mode: multiply;
+        visibility: hidden;
+    }
+    #services .bg_F{
+        position: absolute;
+        top: 364px;
+        right: 260px;
+        mix-blend-mode: multiply;
+        visibility: hidden;
+    }
+    #services .service img{
+        width: 1200px;
+        height: 860px;
+        border-radius: 50%;
+    }
+    #services .service h4{
+        font-size: 70px;
+        color: var(--light);
+        padding-bottom: 10px; 
+    }
+    #services .service h3{
+        font-size: 82px;
+        color: var(--secondary);
+        padding-bottom: 10px; 
+        margin-left: 20px;
+    } 
+ }
+ @media screen and (max-width:490px) {
+    #services{
+        width: 190%;
+        margin: auto;
+        padding-bottom: 80px;
+        padding-left: 4px;
+        position: relative;
+        margin-top: 1420px;
+        margin-left: 290px;
+    }
+    #services h2{
+        font-size: 50px;
+        margin-left: -260px;
+       }
+       #services .service{
+        display: block;
+        text-align: center;
+        justify-content: space-between;
+        margin-left: 140px;
+    
+    }
+    #services .bg_hero{
+        position: absolute;
+        top: 3px;
+        margin-right: 370px;
+        mix-blend-mode: multiply;
+        width: 10px;
+        height: 10px;
+        visibility: hidden;
+    }
+    #services .bg{
+        position: absolute;
+        top: -120px;
+        right: -140px;
+        width: 10px;
+        height: 10px;
+        mix-blend-mode: multiply;
+        visibility: hidden;
+    }
+    #services .bg_h{
+        position: absolute;
+        top: 300px;
+        right: 300px;
+        mix-blend-mode: multiply;
+        visibility: hidden;
+    }
+    #services .bg_he{
+        position: absolute;
+        top: 190px;
+        right: 1073px;
+        mix-blend-mode: multiply;
+        visibility: hidden;
+    }
+    #services .bg_F{
+        position: absolute;
+        top: 364px;
+        right: 260px;
+        mix-blend-mode: multiply;
+        visibility: hidden;
+    }
+    #services .service img{
+        width: 600px;
+        height: 460px;
+        border-radius: 50%;
+    }
+    #services .service h4{
+        font-size: 40px;
+        color: var(--light);
+        padding-bottom: 10px; 
+    }
+    #services .service h3{
+        font-size: 42px;
+        color: var(--secondary);
+        padding-bottom: 10px; 
+        margin-left: 20px;
+    }
+}

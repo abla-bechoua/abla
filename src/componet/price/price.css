@@ -71,6 +71,9 @@
         border: 3px solid #e0ba6d;
         border-radius: 30px;
     }
+    .price h2{
+        font-size: 0px;
+    }
     .price .mail input{
         width: 80%;
         height: 25px;
@@ -94,16 +97,15 @@
         visibility: hidden;
     }  
 }
-
-@media screen and (max-width: 350px) { 
+@media screen and (max-width:490px) {
     .price{
         background-image:url(../../images/1623f2169d0c0aebf17aa24f44fda736.jpg) ;
-        background-repeat: unset;
+         
         backface-visibility: hidden;
-        width: 90%;
-        height: 250px;
+        width: 195%;
+        height: 320px;
         margin-top: 100px;
-        margin-left: 20px;
+        margin-left:280px;
         margin-bottom: 130px;
         text-align: center;
         color: #FFF;
@@ -112,16 +114,20 @@
         border: 3px solid #e0ba6d;
         border-radius: 30px;
     }
+    .price h2{
+        font-size: 40px;
+    }
     .price .mail input{
-        width: 90%;
+        width: 50%;
         height: 25px;
-        padding: 18px 90px;
-        margin-top: 10px;
-        font-size: 1rem;
+        padding: 40px 60px;
+        margin-top: 30px;
+        font-size: 2rem;
         border: none;
         outline: none;
         border-radius: 30px;
     }
+    
     .price .mail a{
         text-decoration: none;
         background-color: var(--secondary);
@@ -132,5 +138,92 @@
         right:50px;
         top: 13px;
         margin-left: 20px;
+    }
+ }
+
+
+@media screen and (max-width: 350px) { 
+    .price{
+        background-image:url(../../images/1623f2169d0c0aebf17aa24f44fda736.jpg) ;
+         
+        backface-visibility: hidden;
+        width: 195%;
+        height: 320px;
+        margin-top: 100px;
+        margin-left:280px;
+        margin-bottom: 130px;
+        text-align: center;
+        color: #FFF;
+        padding-right: 20px;
+        padding-top: 60px;
+        border: 3px solid #e0ba6d;
+        border-radius: 30px;
+    }
+    .price h2{
+        font-size: 40px;
+    }
+    .price .mail input{
+        width: 50%;
+        height: 25px;
+        padding: 40px 60px;
+        margin-top: 30px;
+        font-size: 2rem;
+        border: none;
+        outline: none;
+        border-radius: 30px;
+    }
+    
+    .price .mail a{
+        text-decoration: none;
+        background-color: var(--secondary);
+        color: #fff;
+        padding: 7px 10px;
+        border-radius: 30px;
+        position: absolute;
+        right:50px;
+        top: 13px;
+        margin-left: 20px;
+    }
+ }
+ @media screen and (max-width:1024px) {
+    .price{
+        background-image:url(../../images/1623f2169d0c0aebf17aa24f44fda736.jpg) ;
+        backface-visibility: hidden;
+        width: 200%;
+        height: 800px;
+        margin-top: 200px;
+        margin-left:780px;
+        margin-bottom: 230px;
+        text-align: center;
+        color: #FFF;
+        padding-right: 20px;
+        padding-top: 60px;
+        border: 3px solid #e0ba6d;
+        border-radius: 30px;
+    }
+    .price h2{
+        font-size: 90px;
+    }
+    .price .mail input{
+        width: 50%;
+        height: 65px;
+        padding: 90px 90px;
+        margin-top: 30px;
+        font-size: 3.5rem;
+        border: none;
+        outline: none;
+        border-radius: 30px;
+    }
+    .price .mail a{
+        text-decoration: none;
+        background-color: var(--secondary);
+        color: #fff;
+        padding: 39px 19px;
+        border-radius: 30px;
+        position: absolute;
+        font-size: 50px;
+        right:50px;
+        top: 60px;
+        margin-right:490px;
     }
  }

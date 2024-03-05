@@ -18,7 +18,7 @@ export const Header = () => {
             <a href='#menu'>Our Products</a>
             <a href='#services'> Delivery </a>
               <button className='nav-btn nav-close-btn' onClick={showNavbar}>
-              <i class="fa-sharp fa-regular fa-circle-up"></i>
+              <i class="fa-sharp fa-regular fa-xmark"></i>
               </button>
           </nav>
           
@@ -31,7 +31,7 @@ export const Header = () => {
           <img src={shop} alt='dd' className='shop' />
 
           <button className='nav-btn' onClick={showNavbar}>
-              <i class="fa-sharp fa-regular fa-circle-up"></i>
+          <i class="fa-solid fa-bars"></i>
           </button>
           
          
